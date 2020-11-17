@@ -7,20 +7,17 @@ import Title from "./Components/Title" ;
 
 
 
-                const App = () => (
+    const App = () => (
+                        
+    <div>
                     
-                    <div>
-                 
-                      
-                    <Profile fullName="Mark zuckerberg" bio="Hello from USA" profession="Businessman" >
-                    <img className='image' src={Mrk}  alt='Mrk' /> 
-                </Profile>
-            
-                
-                    
-                    </div>
-                );
-                export default App; 
+    <Title/>
+    <Profile fullName="Mark zuckerberg" bio="Hello from USA" profession="Businessman" >
+    <img className='image' src={Mrk}  alt='Mrk' /> 
+    </Profile>
+
+    </div>
+                    );
+    export default App; 
 
 
-               
