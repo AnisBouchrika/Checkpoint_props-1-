@@ -5,7 +5,7 @@ import React from 'react'
 
 const objStyle = {
     color: 'blue',
-  
+    textAlign: 'center' ,
   };
 function Title() {
     return (

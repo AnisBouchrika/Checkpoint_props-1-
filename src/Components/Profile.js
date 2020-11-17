@@ -13,7 +13,7 @@ const profile = (props) =>{
                 <h1> Full name :{props.fullName}     </h1>
                 <h1> Bio :      {props.bio}          </h1>
                 <h1> Profession :{props.profession}   </h1>
-                <button onClick={alert}>Click me</button>
+                <button onClick={props.alert}>Click me</button>
                 {props.children}
                 
         </div>
