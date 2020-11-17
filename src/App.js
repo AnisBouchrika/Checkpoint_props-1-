@@ -12,7 +12,7 @@ import Title from "./Components/Title" ;
     <div>
                     
     <Title/>
-    <Profile fullName="Mark zuckerberg" bio="Hello from USA" profession="Businessman" >
+    <Profile fullName="Mark zuckerberg" bio="Hello from USA" profession="Businessman" alert={()=> alert("Mark zuckerberg")} >
     <img className='image' src={Mrk}  alt='Mrk' /> 
     </Profile>
 
